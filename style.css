@@ -1,0 +1,46 @@
+:root {
+    --cor-fundo: #000000;
+    --cor-principal: #141414;
+    --cor-secundaria: #171c63;
+    --cor-selecionando: #35d0ff;
+    --cor-destaque: #59f093 ;
+    --cor-respostacerta: #092953;
+    --cor-texto: #F4F1EC;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-respostacerta);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cor-selecionando);
+    color: var(--cor-principal);
+}
